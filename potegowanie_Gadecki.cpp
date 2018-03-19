@@ -9,7 +9,7 @@ Wykonal Jakub Gadecki.
 
 */
 
-#include <iostream> //deklaracja input output stream do wyduku i odczytu liczb
+#include <iostream> //deklaracja input output stream do wydruku i odczytu liczb
 
 using namespace std;
 
@@ -24,7 +24,6 @@ int main(){
 	cin>>b; //odczyt wartosci wykladnika
 	if(!cin)cout<<"\nTylko liczby moga zostac uzyte!\n"; //sprawdza czy zmienna moze zostac uzyta (musi byc liczba)
 	else if(a==0)cout<<"\nWynik: 0\n"; //sprawdza czy podstawa jest zerem
-	else if(a<0 && b==0)cout<<"\nWynik: -1\n"; //sprawdza ujemna podstawa czy ma wykladnik 0
 	else{
 	if(b<0){		//wyrazenie dajace wartosc bezwzgledna ujemnego wykladnika
 		b=-b;
